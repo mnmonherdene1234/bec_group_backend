@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_companies",
+  "info": {
+    "singularName": "about-company",
+    "pluralName": "about-companies",
+    "displayName": "About Company",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "whitebox_small_title": {
+      "type": "string"
+    },
+    "whitebox_big_title": {
+      "type": "string"
+    },
+    "whitebox_subtext": {
+      "type": "richtext"
+    },
+    "complated_projects": {
+      "type": "integer"
+    },
+    "company_customers": {
+      "type": "integer"
+    },
+    "professional_workers": {
+      "type": "integer"
+    },
+    "company_awards": {
+      "type": "integer"
+    },
+    "photo_1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "photo_2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "photo_3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

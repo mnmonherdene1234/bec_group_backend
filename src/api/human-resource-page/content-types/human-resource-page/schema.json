@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "human_resource_pages",
+  "info": {
+    "singularName": "human-resource-page",
+    "pluralName": "human-resource-pages",
+    "displayName": "Human Resource Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

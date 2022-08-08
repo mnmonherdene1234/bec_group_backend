@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_requests",
+  "info": {
+    "singularName": "job-request",
+    "pluralName": "job-requests",
+    "displayName": "job request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "job": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::job.job",
+      "inversedBy": "job_requests"
+    }
+  }
+}
