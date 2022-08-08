@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_infos",
+  "info": {
+    "singularName": "employee-info",
+    "pluralName": "employee-infos",
+    "displayName": "employee info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

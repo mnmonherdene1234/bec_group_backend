@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "greeting_pages",
+  "info": {
+    "singularName": "greeting-page",
+    "pluralName": "greeting-pages",
+    "displayName": "Greeting Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

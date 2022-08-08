@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "management_team_pages",
+  "info": {
+    "singularName": "management-team-page",
+    "pluralName": "management-team-pages",
+    "displayName": "Management Team Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

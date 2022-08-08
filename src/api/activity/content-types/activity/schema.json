@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "jobs",
+  "collectionName": "activities",
   "info": {
-    "singularName": "job",
-    "pluralName": "jobs",
-    "displayName": "job",
+    "singularName": "activity",
+    "pluralName": "activities",
+    "displayName": "activity",
     "description": ""
   },
   "options": {
@@ -15,6 +15,9 @@
     "title": {
       "type": "string"
     },
+    "text": {
+      "type": "richtext"
+    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -22,15 +25,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "job_requests": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::job-request.job-request",
-      "mappedBy": "job"
-    },
-    "subtitle": {
-      "type": "richtext"
     }
   }
 }
